@@ -1,0 +1,33 @@
+=above($point)
+	@if $point == xs
+		@media only screen and (max-width: 767px)
+			@content
+	// 768px and up
+	@if $point == sm
+		@media only screen and (min-width: 768px)
+			@content
+	// 992px and up
+	@if $point == md
+		@media only screen and (min-width: 992px)
+			@content
+	// 1200px and up
+	@if $point == lg
+		@media only screen and (min-width: 1200px)
+			@content
+
+=below($point)
+	@if $point == xs
+		@media only screen and (max-width: 767px)
+			@content
+	// 768px and up
+	@if $point == sm
+		@media only screen and (max-width: 768px)
+			@content
+	// 992px and up
+	@if $point == md
+		@media only screen and (max-width: 992px)
+			@content
+	// 1200px and up
+	@if $point == lg
+		@media only screen and (max-width: 1200px)
+			@content

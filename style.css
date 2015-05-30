@@ -1,6 +1,11 @@
 /*
 Theme Name: Hustler dot Co
-Description: Child theme for the Avada
+Description: Theme created specifically for the Vanderbilt Hustler's dotCo project
 Author: Collin Zimmerman
 Template: Avada
+*/
+
+/*
+All styling for this project is handled using sass within the styles directory.
+If you decide to not use sass, please delete that directory and edit style/css directly
 */

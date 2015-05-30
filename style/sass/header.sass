@@ -1,0 +1,57 @@
+#header
+	display: inline-block
+	width: 100%
+	height: 100px
+	position: fixed
+	z-index: 9000
+	@include below(md)
+		height: auto
+	
+	background: #000000
+	background: -moz-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(50%,#262626), color-stop(100%,#000000))
+	background: -webkit-linear-gradient(top, #000000 0%,#262626 50%,#000000 100%)
+	background: -o-linear-gradient(top, #000000 0%,#262626 50%,#000000 100%)
+	background: -ms-linear-gradient(top, #000000 0%,#262626 50%,#000000 100%)
+	background: linear-gradient(to bottom, #000000 0%,#262626 50%,#000000 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 )
+	
+	#logo, #social-icons
+		display: inherit
+		margin: 10px
+		a
+			margin: 0
+			padding: 0
+			color: #cccc00
+			p
+				margin: inherit
+				padding: inherit
+				
+		a:hover
+			color: #e0e066
+
+	#logo
+		float: left
+		padding: 10px 25px
+		@include below(md)
+			float: none
+			text-align: center
+			margin: 10px auto
+		a
+			p
+				font-size: 60px
+				line-height: 60px
+				font-family: 'chunkfiveregular', sans-serif
+				@include below(sm)
+					font-size: 8vw
+					line-height: 8vw
+	
+	#social-icons
+		float: right
+		padding: 20px 25px
+		img
+			width: 40px
+			height: 40px
+			margin: 0 15px
+		@include below(md)
+			display: none

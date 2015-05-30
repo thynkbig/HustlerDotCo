@@ -1,0 +1,137 @@
+#main {
+  padding: 0; }
+  #main .post h2 {
+    line-height: 37px !important; }
+  #main .avada-row {
+    padding: 0; }
+
+#content {
+  margin-top: 100px;
+  width: 100%; }
+  @media only screen and (max-width: 768px) {
+    #content {
+      margin-top: 75px; } }
+  #content .single-navigation {
+    display: none; }
+  #content .post {
+    margin: 0; }
+    #content .post .meta-info {
+      margin-bottom: 0;
+      margin-top: 50px; }
+      #content .post .meta-info .meta-info-wrapper {
+        margin: 0 30px; }
+    #content .post .entry-title, #content .post .post-content {
+      margin: 0 40px; }
+    #content .post .entry-title {
+      margin-bottom: 30px; }
+    #content .post .post-content .alignleft, #content .post .post-content .alignright, #content .post .post-content .aligncenter {
+      margin-top: 10px;
+      margin-bottom: 5px; }
+    #content .post .post-content .alignleft {
+      margin-left: -20px; }
+    #content .post .post-content .alignright {
+      margin-right: -20px; }
+
+#homepage #content {
+  width: 100%; }
+  #homepage #content .list .post-list {
+    margin: 0 auto;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0; }
+    #homepage #content .list .post-list .stuff {
+      width: 50%;
+      display: inherit; }
+      @media only screen and (max-width: 992px) {
+        #homepage #content .list .post-list .stuff {
+          width: 100%; } }
+      #homepage #content .list .post-list .stuff .post-list-item {
+        width: 100%;
+        height: auto;
+        display: inherit; }
+        #homepage #content .list .post-list .stuff .post-list-item .link {
+          width: 100%;
+          height: auto;
+          display: inherit; }
+          #homepage #content .list .post-list .stuff .post-list-item .link .post-info {
+            width: 100%;
+            height: 35vw;
+            display: inherit;
+            background-size: 100% 100%;
+            background-position: center; }
+            @media only screen and (max-width: 992px) {
+              #homepage #content .list .post-list .stuff .post-list-item .link .post-info {
+                height: 70vw; } }
+            #homepage #content .list .post-list .stuff .post-list-item .link .post-info #text {
+              margin: 13vw 0;
+              background: rgba(25, 25, 25, 0.75); }
+              #homepage #content .list .post-list .stuff .post-list-item .link .post-info #text p {
+                text-align: center;
+                vertical-align: middle;
+                margin: 0;
+                padding: 25px 0;
+                width: 100%;
+                font-size: 20px;
+                line-height: 25px; }
+
+.brd {
+  display: none; }
+
+#header {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 9000;
+  background: #000000;
+  background: -moz-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(50%, #262626), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
+  background: -o-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
+  background: -ms-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
+  background: linear-gradient(to bottom, #000000 0%, #262626 50%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); }
+  @media only screen and (max-width: 992px) {
+    #header {
+      height: auto; } }
+  #header #logo, #header #social-icons {
+    display: inherit;
+    margin: 10px; }
+    #header #logo a, #header #social-icons a {
+      margin: 0;
+      padding: 0;
+      color: #cccc00; }
+      #header #logo a p, #header #social-icons a p {
+        margin: inherit;
+        padding: inherit; }
+    #header #logo a:hover, #header #social-icons a:hover {
+      color: #e0e066; }
+  #header #logo {
+    float: left;
+    padding: 10px 25px; }
+    @media only screen and (max-width: 992px) {
+      #header #logo {
+        float: none;
+        text-align: center;
+        margin: 10px auto; } }
+    #header #logo a p {
+      font-size: 60px;
+      line-height: 60px;
+      font-family: "chunkfiveregular", sans-serif; }
+      @media only screen and (max-width: 768px) {
+        #header #logo a p {
+          font-size: 8vw;
+          line-height: 8vw; } }
+  #header #social-icons {
+    float: right;
+    padding: 20px 25px; }
+    #header #social-icons img {
+      width: 40px;
+      height: 40px;
+      margin: 0 15px; }
+    @media only screen and (max-width: 992px) {
+      #header #social-icons {
+        display: none; } }
+
+/*# sourceMappingURL=main.css.map */
