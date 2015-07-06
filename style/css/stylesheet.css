@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'chunkfiveregular';
-    src: url('http://localhost/hustlerco/wp-content/themes/HustlerDotCo/fonts/chunk-webfont.eot');
-    src: url('http://localhost/hustlerco/wp-content/themes/HustlerDotCo/fonts/chunk-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost/hustlerco/wp-content/themes/HustlerDotCo/fonts/chunk-webfont.woff2') format('woff2'),
-         url('http://localhost/hustlerco/wp-content/themes/HustlerDotCo/fonts/chunk-webfont.woff') format('woff'),
-         url('http://localhost/hustlerco/wp-content/themes/HustlerDotCo/fonts/chunk-webfont.ttf') format('truetype'),
-         url('http://localhost/hustlerco/wp-content/themes/HustlerDotCo/fonts/chunk-webfont.svg#chunkfiveregular') format('svg');
+    src: url('http://www.vanderbilthustler.co/fonts/chunk-webfont.eot');
+    src: url('http://www.vanderbilthustler.co/fonts/chunk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.woff2') format('woff2'),
+         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.woff') format('woff'),
+         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.svg#chunkfiveregular') format('svg');
     font-weight: normal;
     font-style: normal;
 

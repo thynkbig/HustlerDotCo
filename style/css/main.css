@@ -56,7 +56,7 @@
           display: inherit; }
           #homepage #content .list .post-list .stuff .post-list-item .link .post-info {
             width: 100%;
-            height: 35vw;
+            height: 32vw;
             display: inherit;
             background-size: 100% 100%;
             background-position: center; }
@@ -64,7 +64,7 @@
               #homepage #content .list .post-list .stuff .post-list-item .link .post-info {
                 height: 70vw; } }
             #homepage #content .list .post-list .stuff .post-list-item .link .post-info #text {
-              margin: 13vw 0;
+              margin: 11vw 0;
               background: rgba(25, 25, 25, 0.75); }
               #homepage #content .list .post-list .stuff .post-list-item .link .post-info #text p {
                 text-align: center;
