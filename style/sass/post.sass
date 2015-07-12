@@ -28,16 +28,24 @@
 				margin: 0 30px
 			
 		.entry-title, .post-content
-			margin: 0 40px
+			margin: 0 auto
+			max-width: 720px
+			@include below(md)
+				max-width: none
+				margin: 0 75px
 			
 		.entry-title
 			margin-bottom: 30px
+			text-align: center
 			
 		.post-content
 			.alignleft, .alignright, .aligncenter
-				margin-top: 10px
-				margin-bottom: 5px
+				margin-top: 20px
+				margin-bottom: 15px
 			.alignleft
-				margin-left: -20px
+				margin-left: -50px
 			.alignright
-				margin-right: -20px
+				margin-right: -50px
+				
+			font-size: 16px
+			line-height: 26px
