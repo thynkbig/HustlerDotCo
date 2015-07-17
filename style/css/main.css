@@ -6,7 +6,7 @@
     padding: 0; }
 
 #content {
-  margin-top: 100px;
+  margin-top: 60px;
   width: 100%; }
   @media only screen and (max-width: 768px) {
     #content {
@@ -90,23 +90,17 @@
 #header {
   display: inline-block;
   width: 100%;
-  height: 100px;
+  height: 60px;
   position: fixed;
   z-index: 9000;
-  background: #000000;
-  background: -moz-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(50%, #262626), color-stop(100%, #000000));
-  background: -webkit-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
-  background: -o-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
-  background: -ms-linear-gradient(top, #000000 0%, #262626 50%, #000000 100%);
-  background: linear-gradient(to bottom, #000000 0%, #262626 50%, #000000 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); }
+  background: #fff;
+  border-bottom: 1px solid #000; }
   @media only screen and (max-width: 992px) {
     #header {
       height: auto; } }
   #header #logo, #header #social-icons {
     display: inherit;
-    margin: 10px; }
+    margin: 5px; }
     #header #logo a, #header #social-icons a {
       margin: 0;
       padding: 0;
@@ -118,26 +112,26 @@
       color: #e0e066; }
   #header #logo {
     float: left;
-    padding: 10px 25px; }
+    padding: 5px 25px; }
     @media only screen and (max-width: 992px) {
       #header #logo {
         float: none;
         text-align: center;
-        margin: 10px auto; } }
+        margin: 5px auto; } }
     #header #logo a p {
-      font-size: 60px;
-      line-height: 60px;
+      font-size: 40px;
+      line-height: 40px;
       font-family: "chunkfiveregular", sans-serif; }
       @media only screen and (max-width: 768px) {
         #header #logo a p {
-          font-size: 8vw;
-          line-height: 8vw; } }
+          font-size: 7vw;
+          line-height: 7vw; } }
   #header #social-icons {
     float: right;
-    padding: 20px 25px; }
+    padding: 10px 25px; }
     #header #social-icons img {
-      width: 40px;
-      height: 40px;
+      width: 20px;
+      height: 20px;
       margin: 0 15px; }
     @media only screen and (max-width: 992px) {
       #header #social-icons {
