@@ -93,8 +93,7 @@
   height: 60px;
   position: fixed;
   z-index: 9000;
-  background: #fff;
-  border-bottom: 1px solid #000; }
+  background: #fff; }
   @media only screen and (max-width: 992px) {
     #header {
       height: auto; } }
@@ -130,8 +129,8 @@
     float: right;
     padding: 10px 25px; }
     #header #social-icons img {
-      width: 20px;
-      height: 20px;
+      width: 30px;
+      height: 30px;
       margin: 0 15px; }
     @media only screen and (max-width: 992px) {
       #header #social-icons {
