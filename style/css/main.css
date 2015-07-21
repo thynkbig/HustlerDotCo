@@ -20,16 +20,19 @@
       margin-top: 50px; }
       #content .post .meta-info .meta-info-wrapper {
         margin: 0 30px; }
-    #content .post .entry-title, #content .post .post-content, #content .post .author-area {
+    #content .post .entry-title, #content .post .post-content, #content .post .author-area, #content .post .deck {
       margin: 0 auto;
       max-width: 720px; }
       @media only screen and (max-width: 992px) {
-        #content .post .entry-title, #content .post .post-content, #content .post .author-area {
+        #content .post .entry-title, #content .post .post-content, #content .post .author-area, #content .post .deck {
           max-width: none;
           margin: 0 75px; } }
-    #content .post .entry-title, #content .post .author-area {
+    #content .post .entry-title, #content .post .author-area, #content .post .deck {
       margin-bottom: 30px;
       text-align: center; }
+    #content .post .deck {
+      line-height: 22px;
+      font-size: 18px; }
     #content .post .author-area {
       line-height: 24px;
       font-size: 24px; }

@@ -173,6 +173,10 @@
 			<span class="entry-title" style="display: none;"><?php the_title(); ?></span>
 			<?php endif; ?>
 			
+			<?php if( get_field('deck') ): ?>
+				<div class="deck"><?php the_field('deck'); ?></div>
+			<?php endif; ?>
+			
 			<div class="author-area"><p>By <?php the_author(); ?></p></div>
 			
 			
