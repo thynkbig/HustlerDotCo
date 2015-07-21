@@ -151,6 +151,8 @@
 			<?php endif; // 3 ?>
 			<?php endif; // 2 ?>
 			<?php endif; // 1 password check ?>
+			<div class="stuff">
+			</div>
 			<div class="post-content">
 				<?php the_content(); ?>
 				<?php avada_link_pages(); ?>

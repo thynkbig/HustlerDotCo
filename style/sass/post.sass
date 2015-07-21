@@ -27,16 +27,20 @@
 			.meta-info-wrapper
 				margin: 0 30px
 			
-		.entry-title, .post-content
+		.entry-title, .post-content, .author-area
 			margin: 0 auto
 			max-width: 720px
 			@include below(md)
 				max-width: none
 				margin: 0 75px
 			
-		.entry-title
+		.entry-title, .author-area
 			margin-bottom: 30px
 			text-align: center
+			
+		.author-area
+			line-height: 24px
+			font-size: 24px
 			
 		.post-content
 			.alignleft, .alignright, .aligncenter
