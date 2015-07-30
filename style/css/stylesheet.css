@@ -13,4 +13,40 @@
     font-weight: normal;
     font-style: normal;
 
-}
+};
+
+@font-face {
+    font-family: 'utopia';
+    src: url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.eot');
+    src: url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.woff') format('woff'),
+         url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.svg#chunkfiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+};
+
+@font-face {
+    font-family: 'amplitude';
+    src: url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.eot');
+    src: url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.woff') format('woff'),
+         url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.svg#chunkfiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+};
+
+@font-face {
+    font-family: 'amplitudecond';
+    src: url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.eot');
+    src: url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.woff') format('woff'),
+         url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.svg#chunkfiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+};

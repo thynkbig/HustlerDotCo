@@ -1,12 +1,12 @@
 <div id="header">
 	<div id="logo">
 		<a href="<?php echo bloginfo('url') ?>"><p>
-			vanderbilthustler
+			<span class="vanderbilt">vanderbilt</span><span class="hustler">hustler</span>
 		</p></a>
 	</div>
 	<div id="social-icons">
-		<a href="http://www.facebook.com"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2015/07/Facebook_logo.png'; ?>" alt="Facebook"></img></a>
-		<a href="http://www.twitter.com"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2015/05/Twitter_logo.png'; ?>" alt="Twitter"></img></a>
-		<a href="http://www.instagram.com"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2015/07/instagram_logo.png'; ?>" alt="Instagram"></img></a>
+		<a href="http://www.facebook.com"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2015/07/gray-fb.png'; ?>" alt="Facebook"></img></a>
+		<a href="http://www.twitter.com"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2015/07/gray-twitter.png'; ?>" alt="Twitter"></img></a>
+		<a href="http://www.instagram.com"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2015/07/gray-insta.png'; ?>" alt="Instagram"></img></a>
 	</div>
 </div>

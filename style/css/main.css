@@ -30,15 +30,19 @@
     #content .post .entry-title, #content .post .author-area, #content .post .deck {
       margin-bottom: 30px;
       text-align: center; }
+    #content .post .entry-title {
+      font-family: "amplitudecond"; }
     #content .post .deck {
       line-height: 22px;
       font-size: 18px; }
     #content .post .author-area {
       line-height: 24px;
-      font-size: 24px; }
+      font-size: 24px;
+      font-family: "amplitude"; }
     #content .post .post-content {
-      font-size: 16px;
-      line-height: 26px; }
+      font-family: "utopia";
+      font-size: 20px;
+      line-height: 28px; }
       #content .post .post-content .alignleft, #content .post .post-content .alignright, #content .post .post-content .aligncenter {
         margin-top: 20px;
         margin-bottom: 15px; }
@@ -100,7 +104,7 @@
   position: fixed;
   z-index: 9000;
   background: #fff;
-  border-bottom: 1px solid #000; }
+  box-shadow: 0px 0px 10px 3px #444; }
   @media only screen and (max-width: 992px) {
     #header {
       height: auto; } }
@@ -114,6 +118,8 @@
       #header #logo a p, #header #social-icons a p {
         margin: inherit;
         padding: inherit; }
+      #header #logo a .hustler, #header #social-icons a .hustler {
+        color: #DDD; }
   #header #logo {
     float: left;
     padding: 5px 25px; }
