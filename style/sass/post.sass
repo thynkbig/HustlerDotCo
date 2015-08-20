@@ -27,21 +27,27 @@
 			.meta-info-wrapper
 				margin: 0 30px
 			
-		.entry-title, .post-content, .author-area, .deck
+		.post-content, .author-area, .deck
 			margin: 0 auto
 			max-width: 720px
 			@include below(md)
 				max-width: none
 				margin: 0 75px
 			
+		.entry-title
+			margin: 0 auto
+			font-family: 'amplitudecond'
+			max-width: 840px
+			@include below(md)
+				max-width: none
+				margin: 0 50px
+		
 		.entry-title, .author-area, .deck
 			margin-bottom: 30px
-			text-align: center
-			
-		.entry-title
-			font-family: 'amplitudecond'
-			
+			text-align: center	
+		
 		.deck
+			font-family: 'utopia'
 			line-height: 22px
 			font-size: 18px
 			
@@ -60,5 +66,8 @@
 			.alignright
 				margin-right: -50px
 				
-			font-size: 20px
-			line-height: 28px
+			font-size: 16px
+			line-height: 20px
+			@include below(sm)
+				font-size: 24px
+				line-height: 26px

@@ -20,19 +20,26 @@
       margin-top: 50px; }
       #content .post .meta-info .meta-info-wrapper {
         margin: 0 30px; }
-    #content .post .entry-title, #content .post .post-content, #content .post .author-area, #content .post .deck {
+    #content .post .post-content, #content .post .author-area, #content .post .deck {
       margin: 0 auto;
       max-width: 720px; }
       @media only screen and (max-width: 992px) {
-        #content .post .entry-title, #content .post .post-content, #content .post .author-area, #content .post .deck {
+        #content .post .post-content, #content .post .author-area, #content .post .deck {
           max-width: none;
           margin: 0 75px; } }
+    #content .post .entry-title {
+      margin: 0 auto;
+      font-family: "amplitudecond";
+      max-width: 840px; }
+      @media only screen and (max-width: 992px) {
+        #content .post .entry-title {
+          max-width: none;
+          margin: 0 50px; } }
     #content .post .entry-title, #content .post .author-area, #content .post .deck {
       margin-bottom: 30px;
       text-align: center; }
-    #content .post .entry-title {
-      font-family: "amplitudecond"; }
     #content .post .deck {
+      font-family: "utopia";
       line-height: 22px;
       font-size: 18px; }
     #content .post .author-area {
@@ -41,8 +48,8 @@
       font-family: "amplitude"; }
     #content .post .post-content {
       font-family: "utopia";
-      font-size: 20px;
-      line-height: 28px; }
+      font-size: 16px;
+      line-height: 20px; }
       #content .post .post-content .alignleft, #content .post .post-content .alignright, #content .post .post-content .aligncenter {
         margin-top: 20px;
         margin-bottom: 15px; }
@@ -50,6 +57,10 @@
         margin-left: -50px; }
       #content .post .post-content .alignright {
         margin-right: -50px; }
+      @media only screen and (max-width: 768px) {
+        #content .post .post-content {
+          font-size: 24px;
+          line-height: 26px; } }
 
 #homepage #content {
   width: 100%; }
