@@ -177,8 +177,9 @@
 				<div class="deck"><?php the_field('deck'); ?></div>
 			<?php endif; ?>
 			
-			<div class="author-area"><p>By <?php the_author(); ?></p></div>
-			
+			<?php if( get_field('author') ): ?>
+				<div class="author-area"><p>By <?php the_field('author'); ?></p></div>
+			<?php endif; ?>
 			
 			<div class="post-content">
 				<?php the_content(); ?>
