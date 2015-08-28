@@ -1,6 +1,6 @@
 <div id="header">
 	<div id="logo">
-		<a href="<?php echo bloginfo('url') ?>"><p>
+		<a href="http://www.vanderbilthustler.com"><p>
 			<span class="vanderbilt">vanderbilt</span><span class="hustler">hustler</span>
 		</p></a>
 	</div>
