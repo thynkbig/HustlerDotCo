@@ -181,6 +181,10 @@
 				<div class="author-area"><p>By <?php the_field('author'); ?></p></div>
 			<?php endif; ?>
 			
+			<?php if( get_field('title') ): ?>
+				<div class="author-title"><p>By <?php the_field('title'); ?></p></div>
+			<?php endif; ?>
+			
 			<div class="post-content">
 				<?php the_content(); ?>
 				<?php avada_link_pages(); ?>

@@ -35,7 +35,7 @@
         #content .post .entry-title {
           max-width: none;
           margin: 0 50px; } }
-    #content .post .entry-title, #content .post .author-area, #content .post .deck {
+    #content .post .entry-title, #content .post .author-title, #content .post .deck {
       margin-bottom: 30px;
       text-align: center; }
     #content .post .deck {
@@ -43,9 +43,14 @@
       line-height: 22px;
       font-size: 18px; }
     #content .post .author-area {
+      text-align: center;
+      margin-bottom: 5px;
       line-height: 24px;
       font-size: 24px;
       font-family: "amplitude"; }
+    #content .post .author-title {
+      line-height: 16px;
+      font-size: 16px; }
     #content .post .post-content {
       font-family: "utopia";
       font-size: 16px;
