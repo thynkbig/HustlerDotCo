@@ -182,7 +182,7 @@
 			<?php endif; ?>
 			
 			<?php if( get_field('title') ): ?>
-				<div class="author-title"><p>By <?php the_field('title'); ?></p></div>
+				<div class="author-title"><p><?php the_field('title'); ?></p></div>
 			<?php endif; ?>
 			
 			<div class="post-content">
