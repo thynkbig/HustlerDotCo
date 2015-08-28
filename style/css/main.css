@@ -49,8 +49,11 @@
       font-size: 24px;
       font-family: "amplitude"; }
     #content .post .author-title {
+      margin-top: 0px;
       line-height: 16px;
       font-size: 16px; }
+    #content .post .author-area p, #content .post .author-title p {
+      margin: 0; }
     #content .post .post-content {
       font-family: "utopia";
       font-size: 16px;
