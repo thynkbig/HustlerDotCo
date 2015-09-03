@@ -132,13 +132,10 @@
     margin: 5px; }
     #header #logo a, #header #social-icons a {
       margin: 0;
-      padding: 0;
-      color: #ffd534; }
+      padding: 0; }
       #header #logo a p, #header #social-icons a p {
         margin: inherit;
         padding: inherit; }
-      #header #logo a .hustler, #header #social-icons a .hustler {
-        color: #DDD; }
   #header #logo {
     float: left;
     padding: 5px 25px; }
@@ -155,6 +152,10 @@
         #header #logo a p {
           font-size: 7vw;
           line-height: 7vw; } }
+    #header #logo a .vanderbilt {
+      color: #FFD534; }
+    #header #logo a .hustler {
+      color: #DDD; }
   #header #social-icons {
     float: right;
     padding: 10px 25px; }
