@@ -29,7 +29,7 @@
           margin: 0 75px; } }
     #content .post .entry-title {
       margin: 0 auto;
-      font-family: "amplitudecond";
+      font-family: "AmplitudeCond";
       max-width: 840px; }
       @media only screen and (max-width: 992px) {
         #content .post .entry-title {
@@ -39,7 +39,7 @@
       margin-bottom: 30px;
       text-align: center; }
     #content .post .deck {
-      font-family: "utopia";
+      font-family: "Utopia Std";
       line-height: 22px;
       font-size: 18px; }
     #content .post .author-area {
@@ -47,7 +47,7 @@
       margin-bottom: 5px;
       line-height: 24px;
       font-size: 24px;
-      font-family: "amplitude"; }
+      font-family: "Amplitude"; }
     #content .post .author-title {
       margin-top: 0px;
       line-height: 16px;
@@ -55,7 +55,7 @@
     #content .post .author-area p, #content .post .author-title p {
       margin: 0; }
     #content .post .post-content {
-      font-family: "utopia";
+      font-family: "Utopia Std";
       font-size: 16px;
       line-height: 20px; }
       #content .post .post-content .alignleft, #content .post .post-content .alignright, #content .post .post-content .aligncenter {
@@ -150,7 +150,7 @@
     #header #logo a p {
       font-size: 40px;
       line-height: 40px;
-      font-family: "chunkfiveregular", sans-serif; }
+      font-family: "ChunkFive Ex", sans-serif; }
       @media only screen and (max-width: 768px) {
         #header #logo a p {
           font-size: 7vw;
