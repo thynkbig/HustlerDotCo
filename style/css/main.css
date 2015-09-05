@@ -153,9 +153,15 @@
           font-size: 7vw;
           line-height: 7vw; } }
     #header #logo a .vanderbilt {
-      color: #FFD534; }
+      color: #FFD534;
+      transition: color 1s ease; }
     #header #logo a .hustler {
+      color: #DDD;
+      transition: color 1s ease; }
+    #header #logo a:hover .vanderbilt {
       color: #DDD; }
+    #header #logo a:hover .hustler {
+      color: #FFD534; }
   #header #social-icons {
     float: right;
     padding: 10px 25px; }
