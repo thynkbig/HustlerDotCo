@@ -147,17 +147,17 @@
     #header #logo a p {
       font-size: 40px;
       line-height: 40px;
-      font-family: "ChunkFive Ex", sans-serif; }
+      font-family: "ChunkFive", sans-serif; }
       @media only screen and (max-width: 768px) {
         #header #logo a p {
           font-size: 7vw;
           line-height: 7vw; } }
     #header #logo a .vanderbilt {
       color: #FFD534;
-      transition: color 1s ease; }
+      transition: color 0.25s ease; }
     #header #logo a .hustler {
       color: #DDD;
-      transition: color 1s ease; }
+      transition: color 0.25s ease; }
     #header #logo a:hover .vanderbilt {
       color: #DDD; }
     #header #logo a:hover .hustler {

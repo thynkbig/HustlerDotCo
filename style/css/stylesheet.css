@@ -1,12 +1,12 @@
 
 @font-face {
-    font-family: 'ChunkFive Ex';
-    src: url('http://www.vanderbilthustler.co/fonts/chunk-webfont.eot');
-    src: url('http://www.vanderbilthustler.co/fonts/chunk-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.woff2') format('woff2'),
-         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.woff') format('woff'),
-         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.ttf') format('truetype'),
-         url('http://www.vanderbilthustler.co/fonts/chunk-webfont.svg#chunkfiveregular') format('svg');
+    font-family: 'ChunkFive';
+    src: url('http://www.vanderbilthustler.online/fonts/chunk-webfont.eot');
+    src: url('http://www.vanderbilthustler.online/fonts/chunk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.online/fonts/chunk-webfont.woff2') format('woff2'),
+         url('http://www.vanderbilthustler.online/fonts/chunk-webfont.woff') format('woff'),
+         url('http://www.vanderbilthustler.online/fonts/chunk-webfont.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.online/fonts/chunk-webfont.svg#chunkfiveregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -14,11 +14,11 @@
 
 @font-face {
     font-family: 'Utopia Std';
-    src: url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.eot');
-    src: url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.eot?#iefix') format('embedded-opentype'),
-         url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.woff') format('woff'),
-         url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.ttf') format('truetype'),
-         url('http://www.vanderbilthustler.co/fonts/UtopiaStd-Regular.svg#chunkfiveregular') format('svg');
+    src: url('http://www.vanderbilthustler.online/fonts/UtopiaStd-Regular.eot');
+    src: url('http://www.vanderbilthustler.online/fonts/UtopiaStd-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.online/fonts/UtopiaStd-Regular.woff') format('woff'),
+         url('http://www.vanderbilthustler.online/fonts/UtopiaStd-Regular.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.online/fonts/UtopiaStd-Regular.svg#chunkfiveregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,11 +26,11 @@
 
 @font-face {
     font-family: 'Amplitude';
-    src: url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.eot');
-    src: url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.eot?#iefix') format('embedded-opentype'),
-         url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.woff') format('woff'),
-         url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.ttf') format('truetype'),
-         url('http://www.vanderbilthustler.co/fonts/Amplitude-Regular.svg#chunkfiveregular') format('svg');
+    src: url('http://www.vanderbilthustler.online/fonts/Amplitude-Regular.eot');
+    src: url('http://www.vanderbilthustler.online/fonts/Amplitude-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.online/fonts/Amplitude-Regular.woff') format('woff'),
+         url('http://www.vanderbilthustler.online/fonts/Amplitude-Regular.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.online/fonts/Amplitude-Regular.svg#chunkfiveregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -38,11 +38,11 @@
 
 @font-face {
     font-family: 'AmplitudeCond';
-    src: url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.eot');
-    src: url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.eot?#iefix') format('embedded-opentype'),
-         url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.woff') format('woff'),
-         url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.ttf') format('truetype'),
-         url('http://www.vanderbilthustler.co/fonts/AmplitudeCond-Regular.svg#chunkfiveregular') format('svg');
+    src: url('http://www.vanderbilthustler.online/fonts/AmplitudeCond-Regular.eot');
+    src: url('http://www.vanderbilthustler.online/fonts/AmplitudeCond-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://www.vanderbilthustler.online/fonts/AmplitudeCond-Regular.woff') format('woff'),
+         url('http://www.vanderbilthustler.online/fonts/AmplitudeCond-Regular.ttf') format('truetype'),
+         url('http://www.vanderbilthustler.online/fonts/AmplitudeCond-Regular.svg#chunkfiveregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
