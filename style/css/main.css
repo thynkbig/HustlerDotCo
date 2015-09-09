@@ -29,7 +29,7 @@
           margin: 0 75px; } }
     #content .post .entry-title {
       margin: 0 auto;
-      font-family: "AmplitudeCond";
+      font-family: "Helvetica";
       max-width: 840px; }
       @media only screen and (max-width: 992px) {
         #content .post .entry-title {
@@ -39,7 +39,7 @@
       margin-bottom: 30px;
       text-align: center; }
     #content .post .deck {
-      font-family: "Utopia Std";
+      font-family: "Helvetica";
       line-height: 22px;
       font-size: 18px; }
     #content .post .author-area {
@@ -47,15 +47,16 @@
       margin-bottom: 5px;
       line-height: 24px;
       font-size: 24px;
-      font-family: "Amplitude"; }
+      font-family: "Helvetica"; }
     #content .post .author-title {
       margin-top: 0px;
       line-height: 16px;
-      font-size: 16px; }
+      font-size: 16px;
+      font-family: "Helvetica"; }
     #content .post .author-area p, #content .post .author-title p {
       margin: 0; }
     #content .post .post-content {
-      font-family: "Utopia Std";
+      font-family: "Georgia";
       font-size: 16px;
       line-height: 20px; }
       #content .post .post-content .alignleft, #content .post .post-content .alignright, #content .post .post-content .aligncenter {
