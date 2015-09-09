@@ -145,6 +145,9 @@
         float: none;
         text-align: center;
         margin: 5px auto; } }
+    #header #logo img {
+      height: 40px;
+      width: auto; }
     #header #logo a p {
       font-size: 40px;
       line-height: 40px;

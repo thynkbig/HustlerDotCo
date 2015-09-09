@@ -1155,8 +1155,8 @@
 	<meta name="msapplication-TileImage" content="/favicon/favicon-144.png">
 	<meta name="msapplication-config" content="/favicon/browserconfig.xml">
 	
-	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/stylesheet.css?nocache=2"; ?>" type="text/css" />
-	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/main.css?nocache=2"; ?>" type="text/css" />
+	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/stylesheet.css?nocache=15"; ?>" type="text/css" />
+	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/main.css?nocache=15"; ?>" type="text/css" />
 	
 </head>
 <?php

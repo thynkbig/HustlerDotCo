@@ -1,8 +1,11 @@
 <div id="header">
 	<div id="logo">
-		<a href="http://www.vanderbilthustler.com"><p>
+		<a href="http://www.vanderbilthustler.com">
+		<!--<p>
 			<span class="vanderbilt">vanderbilt</span><span class="hustler">hustler</span>
-		</p></a>
+		</p>-->
+		<img src="http://www.vanderbilthustler.online/wp-content/uploads/2015/09/logo.jpg"><img/>
+		</a>
 	</div>
 	<div id="social-icons">
 		<a href="http://www.facebook.com"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2015/07/gray-fb.png'; ?>" alt="Facebook"></img></a>
