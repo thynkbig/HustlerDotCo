@@ -147,7 +147,7 @@
     #header #logo a p {
       font-size: 40px;
       line-height: 40px;
-      font-family: "ChunkFive", sans-serif; }
+      font-family: "ChunkFive Ex", "ChunkFive", sans-serif; }
       @media only screen and (max-width: 768px) {
         #header #logo a p {
           font-size: 7vw;
