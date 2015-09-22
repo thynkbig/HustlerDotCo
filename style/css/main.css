@@ -29,7 +29,7 @@
           margin: 0 75px; } }
     #content .post .entry-title {
       margin: 0 auto;
-      font-family: "Helvetica";
+      font-family: "AmplitudeCond", "Helvetica", sans-serif;
       max-width: 840px; }
       @media only screen and (max-width: 992px) {
         #content .post .entry-title {
@@ -39,7 +39,7 @@
       margin-bottom: 30px;
       text-align: center; }
     #content .post .deck {
-      font-family: "Helvetica";
+      font-family: "Amplitude", "Helvetica", sans-serif;
       line-height: 22px;
       font-size: 18px; }
     #content .post .author-area {
@@ -47,16 +47,16 @@
       margin-bottom: 5px;
       line-height: 24px;
       font-size: 24px;
-      font-family: "Helvetica"; }
+      font-family: "Amplitude", "Helvetica", sans-serif; }
     #content .post .author-title {
       margin-top: 0px;
       line-height: 16px;
       font-size: 16px;
-      font-family: "Helvetica"; }
+      font-family: "Amplitude", "Helvetica", sans-serif; }
     #content .post .author-area p, #content .post .author-title p {
       margin: 0; }
     #content .post .post-content {
-      font-family: "Georgia";
+      font-family: "Utopia Std", "Georgia", serif;
       font-size: 16px;
       line-height: 20px; }
       #content .post .post-content .alignleft, #content .post .post-content .alignright, #content .post .post-content .aligncenter {
@@ -148,24 +148,6 @@
     #header #logo img {
       height: 40px;
       width: auto; }
-    #header #logo a p {
-      font-size: 40px;
-      line-height: 40px;
-      font-family: "ChunkFive Ex", "ChunkFive", sans-serif; }
-      @media only screen and (max-width: 768px) {
-        #header #logo a p {
-          font-size: 7vw;
-          line-height: 7vw; } }
-    #header #logo a .vanderbilt {
-      color: #FFD534;
-      transition: color 0.25s ease; }
-    #header #logo a .hustler {
-      color: #DDD;
-      transition: color 0.25s ease; }
-    #header #logo a:hover .vanderbilt {
-      color: #DDD; }
-    #header #logo a:hover .hustler {
-      color: #FFD534; }
   #header #social-icons {
     float: right;
     padding: 10px 25px; }
