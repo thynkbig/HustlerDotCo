@@ -166,11 +166,11 @@
 			<?php endif; // 2 ?>
 			<?php endif; // 1 ?>
 			<?php if($smof_data['blog_post_title']): ?>
+
 			
 			
-			<h2<?php if( ! $smof_data['disable_date_rich_snippet_pages'] ) { echo ' class="entry-title"'; } ?>><?php the_title(); ?></h2>
-			<?php elseif( ! $smof_data['disable_date_rich_snippet_pages'] ): ?>
-			<span class="entry-title" style="display: none;"><?php the_title(); ?></span>
+			<?php if( get_field('headline') ): ?>
+				<div class="entry-title"><h2><?php the_field('headline'); ?></h2></div>
 			<?php endif; ?>
 			
 			<?php if( get_field('deck') ): ?>
