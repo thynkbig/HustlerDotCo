@@ -1133,7 +1133,7 @@
 
 	<?php echo $smof_data['space_head']; ?>
 	
-	<!-- Thnykbig Edits -->
+	<!-- Thynkbig Edits -->
 	<link rel="shortcut icon" href="/favicon/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon/favicon.ico">
 	<link rel="icon" type="image/png" sizes="196x196" href="/favicon/favicon-192.png">
@@ -1155,8 +1155,15 @@
 	<meta name="msapplication-TileImage" content="/favicon/favicon-144.png">
 	<meta name="msapplication-config" content="/favicon/browserconfig.xml">
 	
-	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/stylesheet.css?nocache=15"; ?>" type="text/css" />
-	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/main.css?nocache=15"; ?>" type="text/css" />
+	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/stylesheet.css"; ?>" type="text/css" />
+	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/style/css/main.css"; ?>" type="text/css" />
+	
+	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/bower_components/jquery/dist/jquery.min.js" ?>"></script>
+	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/js/cheating.js" ?>"></script>
+	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/js/highcharts.js" ?>"></script>
+	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/js/highcharts-3d.js" ?>"></script>
+	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/js/exporting.js" ?>"></script>
+	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/js/hustler.js" ?>"></script>
 	
 </head>
 <?php
