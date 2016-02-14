@@ -1165,6 +1165,9 @@
 	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/js/exporting.js" ?>"></script>
 	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/charts/js/hustler.js" ?>"></script>
 	
+	<link rel=stylesheet href="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/tooltip/tooltip.css"; ?>" type="text/css" />
+	<script src="<?php echo bloginfo('url') . "/wp-content/themes/HustlerDotCo/tooltip/tooltip.js" ?>"></script>
+	
 	<link href='http://cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'>
 	<script type='text/javascript' src='http://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
         

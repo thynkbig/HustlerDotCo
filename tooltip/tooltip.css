@@ -1,6 +1,7 @@
-.contents {
+.outstanding {
 	max-width: 720px;
-	margin: auto;
+	margin: 0;
+	margin-bottom: 400px;
 }
 
 .osenior {
@@ -9,13 +10,18 @@
   font-size: 12px;
   cursor: default;
   padding: 0 0px;
-  margin: 0px auto;
+  margin: auto;
   position: relative;
-  text-align: left;
+  text-align: center;
   width: 140px;
-  height: 140px;
+  height: 200px;
   display: inline-block;
   -webkit-font-smoothing: antialiased; /* webkit text rendering fix */
+}
+
+.top {
+	width: 237px;
+	height: 340px;
 }
 
 .osenior .tooltip span {
@@ -36,13 +42,13 @@
   top: 100%;
   color: #000;
   display: block;
-  left: -30px;
+  left: -40px;
   margin-top: 5px;
   opacity: 0;
   padding: 10px;
   pointer-events: none;
   position: absolute;
-  width: 250%;
+  width: 420px;
   z-index: 2;
   -webkit-transform: translateY(10px);
      -moz-transform: translateY(10px);
