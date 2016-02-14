@@ -1,6 +1,6 @@
 .outstanding {
 	max-width: 720px;
-	margin: 0;
+	margin: auto;
 	margin-bottom: 400px;
 }
 
@@ -12,16 +12,16 @@
   padding: 0 0px;
   margin: auto;
   position: relative;
-  text-align: center;
-  width: 140px;
-  height: 200px;
+  text-align: left;
+  width: 237px;
+  height: 340px;
   display: inline-block;
   -webkit-font-smoothing: antialiased; /* webkit text rendering fix */
 }
 
-.top {
-	width: 237px;
-	height: 340px;
+.bot {
+	width: 177px;
+	height: 255px;
 }
 
 .osenior .tooltip span {
